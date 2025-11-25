@@ -58,22 +58,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AddToCart" xml:space="preserve">
-    <value>Añadir al carrito</value>
+  <data name="Adress" xml:space="preserve">
+    <value>Indirizzo</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Descripción</value>
+  <data name="City" xml:space="preserve">
+    <value>Città</value>
+  </data>
+  <data name="CompleteOrder" xml:space="preserve">
+    <value>Completa ordine</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Paese</value>
+  </data>
+  <data name="EnterDetails" xml:space="preserve">
+    <value>E ci occupiamo subito del tuo ordine!</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Posizione</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Nombre</value>
+    <value>Nome</value>
   </data>
-  <data name="Price" xml:space="preserve">
-    <value>Precio</value>
+  <data name="OrderTitle" xml:space="preserve">
+    <value>Si prega di compilare il modulo</value>
   </data>
-  <data name="ProductList" xml:space="preserve">
-    <value>Lista de productos</value>
+  <data name="ShipSoon" xml:space="preserve">
+    <value>Te lo spediamo il più velocemente possibile.</value>
   </data>
-  <data name="Stock" xml:space="preserve">
-    <value>Stock</value>
+  <data name="ShipTo" xml:space="preserve">
+    <value>Spedire a</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>Codice postale</value>
   </data>
 </root>
