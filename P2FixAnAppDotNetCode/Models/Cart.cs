@@ -63,7 +63,8 @@ namespace P2FixAnAppDotNetCode.Models
         {
             // TODO implement the method
             // DONE OD
-            return GetCartLineList().Sum(x => x.Product.Price);
+            
+            return GetCartLineList().Sum(x => x.Product.Price * x.Quantity);
         }
 
         /// <summary>
