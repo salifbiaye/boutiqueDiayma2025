@@ -132,4 +132,7 @@
   <data name="LanguageSpanish" xml:space="preserve">
     <value>Espagnol</value>
   </data>
+  <data name="LanguageItalian" xml:space="preserve">
+    <value>Italien</value>
+  </data>
 </root>

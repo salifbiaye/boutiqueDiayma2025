@@ -31,7 +31,8 @@ namespace P2FixAnAppDotNetCode.Models.Services
               
                 case "English": return "en-US";
                 case "French":  return "fr-FR";
-                case "Spanish": return "es-ES";   
+                case "Spanish": return "es-ES";
+                case "Italian": return "it-IT";
                 default:        return "en-US";
             }
             return culture;
