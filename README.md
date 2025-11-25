@@ -36,10 +36,10 @@
 - **Description** : Quand on ajoute 2-3 fois le même produit, le total ne se multiplie pas
 - **Pas à reproduire** :
     1. Ajouter un produit à 1000 FCFA
-    2. Total affichée = 1000 ✅
+    2. Total affichée = 1000 
     3. Ajouter le même produit à nouveau
-    4. Total devrait être 2000, mais reste 1000 ❌
-    5. Ajouter une 3e fois : devrait être 3000, mais ne change pas ❌
+    4. Total devrait être 2000, mais reste 1000 
+    5. Ajouter une 3e fois : devrait être 3000, mais ne change pas 
 - **Cause supposée** : La multiplication (prix × quantité) n'est pas appliquée correctement dans **CartController.cs ligne 15** ou **CartSummaryViewComponent.cs ligne 12**
 - **Fichiers concernés** :
     - `Controllers/CartController.cs`
@@ -79,11 +79,11 @@ Vue Product/Index.cshtml
 
 ### Points d'Arrêt Placés
 
-- 🔴 **Startup.cs Ligne 20** : ConfigureServices()
-- 🔴 **ProductController.cs Ligne 15** : Index()
-- 🔴 **CartController.cs Ligne 15** : GetCart()
-- 🔴 **CartSummaryViewComponent.cs Ligne 12** : InvokeAsync()
-- 🔴 **OrderController.cs Ligne 17** : Méthodes de commande
+-  **Startup.cs Ligne 20** : ConfigureServices()
+-  **ProductController.cs Ligne 15** : Index()
+-  **CartController.cs Ligne 15** : GetCart()
+-  **CartSummaryViewComponent.cs Ligne 12** : InvokeAsync()
+-  **OrderController.cs Ligne 17** : Méthodes de commande
 
 ---
 
