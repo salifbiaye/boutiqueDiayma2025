@@ -28,15 +28,11 @@ namespace P2FixAnAppDotNetCode.Models.Services
             // DONE OD
             switch (language)
             {
-                case "French":
-                    culture = "fr";
-                    break;
-                case "Spanish":
-                    culture = "es";
-                    break;
-                default:
-                    culture = "en";
-                    break;
+              
+                case "English": return "en-US";
+                case "French":  return "fr-FR";
+                case "Spanish": return "es-ES";   
+                default:        return "en-US";
             }
             return culture;
         }
